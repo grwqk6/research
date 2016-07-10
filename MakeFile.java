@@ -12,11 +12,8 @@ import java.util.Set;
 public class MakeFile {
 	public static void main(String[] args) throws IOException {
 		 DecimalFormat df = new DecimalFormat("00000000");
-		 Integer numWords = 0;
+		 Integer numWords, NodeID, counter, numNodes   = 0;
 		 Integer numLines = 1;
-		 Integer numNodes = 0;
-		 Integer nodeID   = 0;
-		 Integer counter  = 0;
 		 String newNodeID = "";
 		 String  header   =   "road_id	    #_of_nodes      	node_id	        node_x_coord	    node_y_coord	... end of list";
 		 String finishedLine1 = " ";
